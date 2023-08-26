@@ -1,0 +1,156 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    margin-left: 20px;
+}
+
+.navbar ul.menu {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar ul.menu li {
+    margin-right: 20px;
+}
+
+.navbar ul.menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul.menu li a:hover {
+    color: #ff5722;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About Us section styles */
+.about-us {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Special Recipes segment styles */
+.special-recipes {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.special-recipes h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Testimonials section styles */
+.testimonials {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.testimonial {
+    margin-top: 20px;
+}
+
+.testimonial img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    margin-top: 10px;
+}
+
+.testimonial .customer-name {
+    font-weight: bold;
+}
+
+/* Call to Action section styles */
+.cta {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 28px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #ff5722;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
